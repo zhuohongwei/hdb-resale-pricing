@@ -2,7 +2,10 @@
   :version "0.1.0"
   :author ""
   :license ""
-  :depends-on (#:drakma #:cl-json)
+  :depends-on (#:drakma 
+               #:cl-json
+               #:cl-ppcre
+               #:cl-json-path)
   :components ((:module "src"
                 :components
                 ((:file "main"))))

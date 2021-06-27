@@ -54,3 +54,4 @@
     (ok (string-equal (make-property-curl-command :street "yishun" :block-number "798") 
       (concatenate 'string "curl -v -X GET \"https://data.gov.sg/api/action/datastore_search?" 
         (make-property-query-string :street "yishun" :block-number "798") "\"")))))
+
