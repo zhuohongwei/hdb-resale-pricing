@@ -16,7 +16,7 @@
 (in-package :hdb-resale-pricing)
 
 (defvar *endpoint* "https://data.gov.sg/api/action/datastore_search") 
-(defvar *transactions-resource-id* "42ff9cfe-abe5-4b54-beda-c88f9bb438ee")
+(defvar *transactions-resource-id* "f1765b54-a209-4718-8d38-a39237f502b3")
 (defvar *property-resource-id* "482bfa14-2977-4035-9c61-c85f871daf4e")
 (defvar *transactions-sort* "month desc")
 
